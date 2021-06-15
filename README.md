@@ -12,7 +12,7 @@ This script helps you to provision DevOps native services like Jenkins, GitLab a
 ![Design View](https://github.com/mynameisjai/Automated-DevOps-Provisioning/blob/main/DevOps.png?raw=true)
 
 
-### Output URL to look for
+### Service URL's
 - **Jenkins** <br>
     - <VM_Ip address>:8443/<br>
 Administrator Password will be displayed at the end in console log output.
@@ -21,7 +21,7 @@ Administrator Password will be displayed at the end in console log output.
     - https://<VM_Ip address>/ <br>
     Just hit the public IP address secured with **https://** of the VM you hosted and it will redirect to the GitLab service
 - **JFrog Artifactory** <br>
-    - <VM_Ip address>:8082/artifactory
+    - <VM_Ip address>:8082/artifactory <br>
     Once the initial artifactory setup is done login with default credentials. <br> 
         - **Username:** admin <br>
         - **Password:** password
